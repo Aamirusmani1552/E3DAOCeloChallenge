@@ -1,5 +1,6 @@
 # E3DaoCeloChallenge
-Link for the Live project: <b>https://nft-marketplace-oozzfdcll-aamirusmani1552.vercel.app/</b>
+Link for the Live project: <b>https://nft-marketplace-sigma-rouge.vercel.app/</b>
+
 <br/>
 <hr />
 NFTMarketplace contract on celo: 0xbdDD51a5CA0dcAc6B5e56d011f4338dD394791E9
