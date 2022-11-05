@@ -33,6 +33,7 @@ const Home: NextPage = () => {
 
   return (
     <>
+      {Number(chainId) === 44787 ? 
       <div className="p-2 flex-1 flex flex-col">
         <Head>
           <title>NFT Marketplace</title>
@@ -64,7 +65,10 @@ const Home: NextPage = () => {
           )}
         </main>
       </div>
-      {activeModal && <UpdateModal />}
+      :
+      <h2 className="flex items-center justify-center text-[#1CA9BB] text-3xl capitalize" >please connect to Celo Alfajores</h2>
+    }
+    {activeModal && <UpdateModal />}
     </>
   );
 };
